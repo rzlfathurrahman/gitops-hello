@@ -11,3 +11,7 @@ patches:
       - op: replace
         path: /spec/replicas
         value: 2
+
+images:
+  - name: nginx
+    newTag: "1.25.3"
